@@ -7,6 +7,7 @@ let limiteTentativas = 7;
 console.log("by: @erickwrq")
 
 function guessNumber() {
+    
 
     let chute = Number(document.getElementById("guessInput").value);
 
@@ -22,6 +23,11 @@ function guessNumber() {
     // Conta a tentativa e salva no histórico
     tentativas++;
     historico.push(chute);
+
+    console.log("Tentativa:", tentativas);
+    console.log("Historico:", historico);
+
+    historicoTexto.textContent = "Historico: " + historico.join(", ");
 
     historicoTexto.textContent = "Histórico: " + historico.join(", ");
 
