@@ -4,9 +4,9 @@ let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 let tentativas = 0;
 let historico = [];
 let limiteTentativas = 7;
+console.log("by: @erickwrq")
 
 function guessNumber() {
-    console.log("by: fastrq")
 
     let chute = Number(document.getElementById("guessInput").value);
 
@@ -34,7 +34,6 @@ function guessNumber() {
         numeroSecreto = Math.floor(Math.random() * 100) + 1;
         tentativas = 0;
         historico = [];
-        document.getElementById("botaoAdivinhar").addEventListener("click" guessNumber);
 
     }
 
@@ -53,7 +52,7 @@ function guessNumber() {
     // Dicas
     else if (chute < numeroSecreto) {
 
-        resultado.textContent =  "📈 Tá mirando onde? No rodapé da tela? KKK"
+        resultado.textContent =  "📈 chuta mais alto, Tá mirando onde? No rodapé da tela? KKK"
 
     }
 
