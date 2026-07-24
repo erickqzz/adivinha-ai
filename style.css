@@ -1,1 +1,38 @@
+body {
+    background-color: #e3f2fd;
+    font-family: Arial, sans-serif;
+}
 
+.container {
+    width: 350px;
+    margin: 80px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #1976d2;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+#result{
+  white-space: pre-line;
+}
