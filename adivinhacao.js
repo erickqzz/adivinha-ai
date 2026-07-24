@@ -4,8 +4,10 @@ let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 let tentativas = 0;
 let historico = [];
 let limiteTentativas = 5;
+console.log("arquivo carregou")
 
 function guessNumber() {
+    console.log("by: fastrq")
 
     let chute = Number(document.getElementById("guessInput").value);
 
