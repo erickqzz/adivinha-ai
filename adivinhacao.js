@@ -3,8 +3,7 @@ let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 
 let tentativas = 0;
 let historico = [];
-let limiteTentativas = 5;
-console.log("arquivo carregou")
+let limiteTentativas = 7;
 
 function guessNumber() {
     console.log("by: fastrq")
@@ -35,6 +34,7 @@ function guessNumber() {
         numeroSecreto = Math.floor(Math.random() * 100) + 1;
         tentativas = 0;
         historico = [];
+        document.getElementById("botaoAdivinhar").addEventListener("click" guessNumber);
 
     }
 
