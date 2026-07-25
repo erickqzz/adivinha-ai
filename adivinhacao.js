@@ -29,8 +29,6 @@ function guessNumber() {
 
     historicoTexto.textContent = "Historico: " + historico.join(", ");
 
-    historicoTexto.textContent = "Histórico: " + historico.join(", ");
-
     // Verifica se acertou
     if (chute === numeroSecreto) {
 
