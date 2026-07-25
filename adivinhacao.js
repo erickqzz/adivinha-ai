@@ -61,7 +61,7 @@ function guessNumber() {
     // Dicas
     else if (chute < numeroSecreto) {
 
-        resultado.textContent =  "📈 chuta mais alto, Tá mirando onde? No rodapé da tela? KKK"
+        resultado.textContent =  "📈 chuta mais alto, Tá mirando onde? No rodapé da tela? KKK";
 
     }
 
