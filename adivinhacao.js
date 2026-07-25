@@ -37,7 +37,7 @@ function guessNumber() {
     // Verifica se acertou
     if (chute === numeroSecreto) {
 
-        resultado.textContent = "Acertou! fez o minímo igual ela fez por vc! 👍 " + tentativas + " tentativas!";
+        resultado.textContent = "Você acertou. Vou fingir que fiquei impressionado.";
 
         // Reinicia o jogo
         numeroSecreto = Math.floor(Math.random() * 100) + 1;
@@ -61,7 +61,7 @@ function guessNumber() {
     // Dicas
     else if (chute < numeroSecreto) {
 
-        resultado.textContent =  "📈 O número é maior, só não maior que sua calvície";
+        resultado.textContent =  "📈 O número é maior, só não maior que o Santos Futebol Clube";
 
     }
 
