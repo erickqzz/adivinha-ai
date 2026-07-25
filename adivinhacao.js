@@ -21,13 +21,14 @@ function guessNumber() {
     }
 
     // Conta a tentativa e salva no histórico
+
+    if (historico.includes(chute)){
+        resultado.textContent "Você já tentou esse número crlh!";
+        return;
+    }
     
     tentativas++;
     console.log("push", chute);
-    historico.push(chute);
-
-    console.log("Tentativa:", tentativas);
-    console.log("Historico:", historico);
 
     historicoTexto.textContent = "Historico: " + historico.join(", ");
 
