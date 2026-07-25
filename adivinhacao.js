@@ -3,7 +3,7 @@ let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 
 let tentativas = 0;
 let historico = [];
-let limiteTentativas = 7;
+let limiteTentativas = 5;
 console.log("by: @erickwrq")
 
 function guessNumber() {
