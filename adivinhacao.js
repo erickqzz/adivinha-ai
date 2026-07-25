@@ -21,7 +21,9 @@ function guessNumber() {
     }
 
     // Conta a tentativa e salva no histórico
+    
     tentativas++;
+    console.log("push", chute);
     historico.push(chute);
 
     console.log("Tentativa:", tentativas);
