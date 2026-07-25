@@ -29,8 +29,6 @@ function guessNumber() {
     
     tentativas++;
     historico.push(chute);
-    
-    console.log("push", chute);
 
     historicoTexto.textContent = "Historico: " + historico.join(", ");
 
